@@ -1,15 +1,20 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+
+import Header from './section/Header'
+import Navbar from './section/Navbar'
+import Contact from './section/Contact'
+import LeftSection from './section/LeftSection'
+import RightSection from './section/RightSection'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className='mt-14 mx-auto max-w-6xl grid lg: grid-cols-[40%_60%]'>
+      <LeftSection />
+      <RightSection />
+    </div>
   )
 }
 
