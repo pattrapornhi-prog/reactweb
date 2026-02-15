@@ -6,10 +6,10 @@ export default {
     extend: {
       colors:{
         'primaryTitle': '#FF6B6B',
-        'primaryContent': '#4C5958',
+        'primaryContent': '#1E3A8A',
         'primarySubcontent': '#8AA6A3',
-        'primaryBase': '#a9b5b4',
-        'primaryAccent': '#10403B',
+        'primaryBase': '#FFD700',
+        'primaryAccent': '#f9a916',
         'primaryBg': '#f6f6f6',
       }
     },

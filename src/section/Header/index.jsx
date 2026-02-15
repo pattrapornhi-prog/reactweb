@@ -1,7 +1,7 @@
 import fileResume from '../../assets/cv.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faArrowsDownToLine } from '@fortawesome/free-solid-svg-icons'
-import { data } from '../../contents/header'
+import { data } from '../../contents/header.js'
 
 const Header = () => {
     return (
